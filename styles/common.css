@@ -1,0 +1,12 @@
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.divider {
+    width: 64px;
+    height: 2px;
+    background-color: #e72424;
+    margin: 0 auto;
+}

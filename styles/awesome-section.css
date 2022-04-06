@@ -1,43 +1,26 @@
-body {
-    background-color: #e5e6ec;
-    margin: 0;
+.awesome {
+  padding: 80px 32px;  
 }
 
-h2 {
-    margin: 0;
-}
-
-.container {
-    width: 1170px;
-    margin: 0 auto;
-    background-color: rgb(255, 255, 255);
-}
-
-.title {
+.awesome__title {
     text-align: center;
     color: #212121; 
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
     font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 34px;
 }
 
-.subtitle {
+.awesome__subtitle {
     text-align: center;
     margin-top: 34px;
     color: #86878B;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    font-family: 'Open Sans';
-}
-
-.divider {
-    width: 64px;
-    height: 2px;
-    background-color: #e72424;
-    margin: 0 auto;
-    margin-top: 34px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .cards {
@@ -73,7 +56,7 @@ h2 {
     font-weight: 700;
     font-size: 20px;
     line-height: 27px; 
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 }
 
 .card__text {
@@ -81,5 +64,5 @@ h2 {
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 }
