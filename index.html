@@ -16,18 +16,45 @@
     <link href="./styles/header-section.css" rel="stylesheet">
     <link href="./styles/footer-section.css" rel="stylesheet">
     <link href="./styles/social-section.css" rel="stylesheet">
+    <link href="./styles/contacts-section.css" rel="stylesheet">
+    <link href="./styles/navigation-section.css" rel="stylesheet">
+    <link href="./styles/feautures-section.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c974aae434.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <section class="navigation">
+        <div class="navigation__container">
+            <div class="navigation__logo">AX<span>IT</span></div>
+            <div class="navigation__menu">
+                <ul class="navigation__menu__item">
+                    <li class="navigation__menu__feautures">
+                        <a href="/Feautures">Feautures</a>
+                    </li>
+                    <li class="navigation__menu__about">
+                        <a href="/About">About</a>
+                    </li>
+                    <li class="navigation__menu__pricing">
+                        <a href="/Pricing">Pricing</a>
+                    </li>
+                    <li class="navigation__menu__reviews">
+                        <a href="/Reviews">Reviews</a>
+                    </li>
+                    <li class="navigation__menu__contact">
+                        <a href="/Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
     <section class="header">
         <div class="header__container">
             <div class="header__content">
-                <h1 class="header__title">AX<span class="header__title__highlight">IT</span></h1>
-                <h2 class="header__subtitle">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
-                <div class="text">
+                <div class="header__title">AX<span class="header__title__highlight">IT</span></div>
+                <h1 class="header__subtitle">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                <div class="header__text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean</p>
                 </div>
-                <button class="button">Download</button>
+                <a class="header__button" href="/">Download</a>
             </div>
             <div class="header__form">
                 <form action="/">
@@ -81,6 +108,32 @@
                 <a target="_blank" href="https://www.mail.ru">
                     <i class="fa-solid fa-at"></i>
                 </a>
+            </div>
+        </div>
+    </section>
+    <section class="feautures">
+        <div class="feautures__container">
+            <div class="feautures__tabs">
+                <div class="feautures__tab feautures__tab__active">tab 1</div>
+                <div class="feautures__tab">tab 1</div>
+                <div class="feautures__tab">tab 1</div>
+            </div>
+            <div class="feautures__contents">
+                <div class="feautures__content">
+                    <h2 class="feautures__content__title">Tabs with soft transitioning effect.</h2>
+                    <div class="feautures__content__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                        penatibus et magnis dis parturient montes.</p> 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                        bibendum laoreet.</p>  
+                    </div>
+                    <button class="feautures__content__button">Download</button>
+                </div>
+                <div class="feautures__content__img">
+                    <img src="./img/img-feautures.png" alt="picture">
+                </div>
             </div>
         </div>
     </section>
@@ -233,6 +286,37 @@
                 <p class="axure__subtitle">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
                 <div class="axure__button">Download</div>
             </div>
+    </section>
+    <section class="contact-us">
+        <div class="contact-us__container">
+            <div class="contact-us__title">contact us</div>
+            <p class="contact-us__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <form class="contact-us__form" action="/">
+                <div class="contact-us__form__fields">
+                    <div class="contact-us__form__block">
+                         <div class="contact-us__form__input">
+                           <label for="name">Name</label>
+                           <input type="text" id="name">
+                        </div>
+                        <div class="contact-us__form__input">
+                           <label for="email">Email</label>
+                           <input type="text" id="email">
+                        </div>
+                        <div class="contact-us__form__input">
+                           <label for="password">Password</label>
+                           <input type="text" id="password">
+                        </div>
+                    </div>
+                    <div class="contact-us__form__block">
+                        <div class="contact-us__form__message">
+                            <label for="message">Message</label>
+                            <textarea id="message"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <button class="contact-us__form__button">Send Message</button>
+            </form>
+        </div>
     </section>
     <section class="footer">
         <div class="container">

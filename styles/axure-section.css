@@ -68,4 +68,10 @@
     width: 135px;
     display: block;
     margin: 0 auto;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+}
+
+.axure__button:hover {
+    background-color: rgba(240, 240, 240, 0.2);
 }

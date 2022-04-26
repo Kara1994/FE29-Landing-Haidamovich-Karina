@@ -42,6 +42,7 @@
 .reviews {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .reviews-card {
